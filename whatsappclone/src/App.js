@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
+import MoreVertIcon from "@mui/icons-material/MoreVert";
 import DonutLargeIcon from '@mui/icons-material/DonutLarge';
-import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
-import MoreVertIcon from '@material-ui/icon/MoreVert';
+import ChatIcon from '@mui/icons-material/Chat';
 
 export default () => {
     return (
@@ -14,7 +14,8 @@ export default () => {
                     <div className='header--buttons'>
                         <div className='header--btn'>
                             <DonutLargeIcon style={{color: '#919191'}} />
-                                
+                            <ChatIcon style={{color: '#919191'}} />
+                            <MoreVertIcon style={{color: '#919191'}} />
                         </div>   
                     </div>
                 </header>
