@@ -11,10 +11,11 @@ export default () => {
                     <div className='charListItem--date'>19:00</div>
                 </div>
                 <div className='charListItem--line'>
-                    <div className='charListItem--lastMsg'><p>Opa, tudo bem?</p></div>
+                    <div className='charListItem--lastMsg'>
+                        <p>Opa, tudo bem?</p>
+                    </div>
                 </div>
-            </div>
-
+            </div>  
         </div>
     );
 }

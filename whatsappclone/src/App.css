@@ -1,4 +1,4 @@
-+* {
+* {
     box-sizing: border-box;
 }
 body {
@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     border-right: 1px solid #DDD;
 }
-header {
+.header {
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -70,14 +70,14 @@ header {
     flex: 1;
     background-color: #fff;
     overflow-y: auto;
-    
 }
-
-
-
-
-
-
-.contentarea{
+.chatList::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.chatList::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+}
+.contentarea {
 
 }
