@@ -49,6 +49,9 @@ export default () => {
 
             </div>
             <div className="contentarea">
+                {activeChat.chatId !== undefined && 
+                    <ChatWindow />
+                }
                 <ChatIntro />
             </div> 
         </div>
