@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     border-right: 1px solid #DDD;
 }
-.header {
+header {
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -66,9 +66,9 @@ body {
     margin-left: 10px;
 }
 
-.chartlist {
+.chatList {
     flex: 1;
-    background-color: #fff;
+    background-color: #FFF;
     overflow-y: auto;
 }
 .chatList::-webkit-scrollbar {
