@@ -1,5 +1,5 @@
 import React from 'react';
-import './ChatListItem';
+import './ChatIntro.css';
 
 export default () => {
     return (

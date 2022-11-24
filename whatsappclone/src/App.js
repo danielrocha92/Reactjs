@@ -9,7 +9,6 @@ import DonutLargeIcon from "@mui/icons-material/DonutLarge";
 import ChatIcon from "@mui/icons-material/Chat";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import SearchIcon from "@mui/icons-material/Search";
-import ChatWindow from './components/ChatWindow';
 
 export default () => {
 
@@ -47,11 +46,13 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="chatList">
+                <div className="chatlist">
                     {chatList.map((item, key)=>(
                         <ChatListItem
                             key={key}
-                            onClick={()=>setActiveChat(chatlist[key])}
+                            data={item}
+                            active={activeChat.chatId === chatList[key].chatId}
+                            onClick={()=>setActiveChat(chatList[key])}
                         />
                     ))}
                 </div>
