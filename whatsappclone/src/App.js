@@ -25,7 +25,8 @@ export default () => {
             <div className="sidebar">
                 
                 <header>
-                    <img className="header--avatar" src="https://www.w3schools.com/howto/img_avatar2.png" alt=""/>
+                    <img className="header--image
+                    " src="https://www.w3schools.com/howto/img_avatar2.png" alt=""/>
                     <div className="header--buttons">
                         <div className="header--btn">
                             <DonutLargeIcon style={{color: "#919191"}} />
